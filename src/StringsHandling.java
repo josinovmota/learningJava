@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class StringsHandling {
+
     public static void main(String[] args) {
         // Declare and initialize string variables
         String string = new String("Hello World!");
