@@ -12,9 +12,9 @@ public class PrimitiveDataTypes {
         // Int data type has 32 bits and can store numeric values with a not too long range. The max number that int can store is ~2.15B
         int i = 512312345;
 
-        // Double data type has 64 bits and can store numeric values with a very longe range. The max number is ~9.2S
-        // Since the compiler starts looking at the Number, you should use the letter "L" so the compiler identifies this whole number as
-        // a long
+        // Double data type has 64 bits and can store numeric values with a very long range. The max number is ~9.2S
+        // Since the compiler starts looking at the Number when you compile, you should use the letter "L" so the compiler identifies
+        // this whole number as a long
         long l = 2143214582123L;
 
         // Float data type has 32 bits and can store fractional numbers. It has less precision than Double data type
