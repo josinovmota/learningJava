@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class StringsHandling {
     public static void main(String[] args) {
-        // Declare string variables
+        // Declare and initialize string variables
         String string = new String("Hello World!");
         String uau = "It's beautiful today";
         String mix = string + " " + uau;
@@ -15,10 +15,10 @@ public class StringsHandling {
         Scanner scanner = new Scanner(System.in);
         String secondName = scanner.nextLine();
 
-        // Declare a fullMessage variable
+        // Declare and initialize fullMessage variable
         String fullMessage = "\n" + mix + ". Hello " + name + " and " + secondName;
 
-        // Print the fullMessage variable
+        // Print the `fullMessage` variable
         System.out.println(fullMessage);
     }
 }
