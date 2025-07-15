@@ -9,7 +9,6 @@ public class NumericMethods {
         // In the class Integer we can also take a String as an argument of the method `parseInt` and it'll return the string as its decimal
         // representation
         String c = "1234";
-
         int d = Integer.parseInt(c);
         System.out.println(d);
 
