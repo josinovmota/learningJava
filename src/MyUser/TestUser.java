@@ -1,3 +1,5 @@
+package MyUser;
+
 public class TestUser {
 
     // We only need one `main` method when we are working with 2 classes

@@ -1,3 +1,5 @@
+package MyUser;
+
 public class User {
     // Here we are creating 2 properties and making it public so other class can change its value
     public String firstName;
